@@ -70,9 +70,9 @@ public class Main {
 
 		System.out.println("\n ----- Exercício 4 -----\n");
 
-		banco1.getCasaList().add(casa1);
-		banco1.getCasaList().add(casa2);
-		banco1.getCasaList().add(casa3);
+		banco1.addCasa(casa1);
+		banco1.addCasa(casa2);
+		banco1.addCasa(casa3);
 
 		for (Casa iCasa : banco1.getCasaList()) {
 			System.out.println("A casa com morada em " + iCasa.getMorada() + " tem valor de custo de "
@@ -80,6 +80,16 @@ public class Main {
 		}
 
 		System.out.println("O lucro previsto para a venda das " + banco1.getCasaList().size() + " casas é de "
-				+ banco1.getLucroPrevisto());
+				+ banco1.getLucroPrevisto() + "\n");
+
+		String moradaRemover = casa2.getMorada();
+
+		banco1.removeCasa(moradaRemover);
+
+		System.out.println("Depois de remover uma das casas ficamos com duas casas:");
+		for (Casa iCasa : banco1.getCasaList()) {
+			System.out.println(iCasa.getMorada());
+		}
+
 	}
 }
