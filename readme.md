@@ -8,7 +8,7 @@ As casas têm uma morada, um preço de custo e um preço estimado de venda. Perm
 
 No banco é possível adicionar novas contas, aceder a uma conta a partir do nome do titular. É também possível adicionar casas, remover casas com uma dada morada e calcular o lucro previsto com venda de todas as casas associadas.
 
-![Diagrama de Classes](../Ficha-3/images/Ficha-3-diagrama.png)
+![Diagrama de Classes](../images/Ficha-3-diagrama.png)
 
 > criado usando como refererência o [guia](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
